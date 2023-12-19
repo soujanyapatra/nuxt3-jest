@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "test": "jest",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.6",
+    "@nuxt/devtools": "latest",
+    "@nuxt/test-utils": "^3.8.1",
+    "@types/jest": "^27.5.2",
+    "@vue/test-utils": "^2.4.3",
+    "@vue/vue3-jest": "^27.0.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "jest-transform-stub": "^2.0.0",
+    "nuxt": "^3.8.2",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.9.5",
+    "vitest": "^0.33.0",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
+  }
+}
